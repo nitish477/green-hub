@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background: rgb(69, 161, 69);
+    height: 30px;
+    padding: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: sticky;
+    top: 1px;
+}
+.logo{
+    float: left;
+    color: white;
+    font-size: 25px;
+    background-color: green;
+    display: inline-block;
+    height: 30px;
+    padding: 25px;
+    position: sticky;
+    top: 1px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 20px 30px;
+}

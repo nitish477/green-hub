@@ -1,0 +1,46 @@
+.product-card{
+    width: 300px;
+    padding: 10px ;
+    margin: 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 2px gray ;
+}
+.product-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+.product-title{
+    margin: 10px 40px;
+    font-size: 30px;
+    color: black;
+}
+.product-discription{
+   
+    word-wrap: break-word;
+    font-size: 20px;
+    color: rgb(10, 10, 10);
+}
+.product-price{
+    margin: 10px 16px;
+    font-size: 22px;
+    color: rgb(27, 155, 76);
+}
+.addtocart-btn{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 30px;
+    background-color: rgb(27, 155, 76);
+    border: none;
+    color: aliceblue;
+}
+.quantity{
+    padding: 5px 8px;
+    margin: 10px;
+    background: wheat;
+    border: 1px solid black;
+    border-radius: 50%;
+}
