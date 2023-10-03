@@ -1,0 +1,31 @@
+.read-post-heading{
+    font-size: 25px;
+    display: block;
+   margin: 20px;
+   text-align: center;
+}
+.img-contanier{
+    width:90% ;
+    height: 600px;
+    padding: 20px;
+    margin-left: 50px   ;
+}
+.post-title{
+    font-size: 60px;
+   text-align: center;
+   padding: 20px 50px;
+   margin: 20px;
+  border-bottom: 2px solid black;
+}
+.postdate{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.moreinfo{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.sub-title{
+    font-size: 30px;
+}

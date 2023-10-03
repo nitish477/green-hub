@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState ,useEffect} from 'react'
 import "./Card.css";
 
 
@@ -19,6 +19,14 @@ export default function Card({title,price,discription,img,delPrice}) {
     }
 
   }
+
+   function valueChange(){
+    console.log(`Change Value${quantity}`)
+   }
+
+   useEffect(valueChange, [quantity])
+
+
   return (
     <>
       <div className='product-card'>
@@ -30,6 +38,27 @@ export default function Card({title,price,discription,img,delPrice}) {
         <button onClick={increment} className='quantity'>+</button> <span>{quantity}</span> <button onClick={decrement} className='quantity'>-</button>
         <button className='addtocart-btn'> Add To Cart </button>
       </div>
+    </>
+  )
+}
+
+
+
+
+export function ProductCard({name,emoji,price,bgcolor}){
+  return(
+    <>
+    <div className='product-card 'style={{background:bgcolor}}>
+      <p>
+        {name}
+        <span>{emoji}</span>
+      </p>
+    
+      <br/>
+    <span>
+      Rs :{price}
+    </span>
+     </div>
     </>
   )
 }

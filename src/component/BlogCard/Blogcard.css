@@ -1,0 +1,31 @@
+ .blog-card{
+    height: auto;
+    width: 50%;
+    margin: 5px 0;
+    overflow: hidden;
+    cursor: pointer;
+} 
+.img{
+    height: 60vh;
+}
+.title{
+    font-size: 25px;
+    width: 87%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0;
+    padding: 5px ;
+}
+.blog-card__text{
+    font-style: italic ;
+    width: 87%;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.postdate{
+    padding: 5px;
+}
+.read-btn:hover::before{
+   content: '━';
+   transition: 2s;
+}

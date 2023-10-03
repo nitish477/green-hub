@@ -1,0 +1,17 @@
+.blog-heading{
+    font-size: 40px;
+    padding: 20px 30px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.sub-contanier{
+   display: flex;
+  
+   width: 100%;
+   flex-wrap: wrap;
+   flex-direction: row;
+  
+    
+   padding: 0px 30px;
+}
